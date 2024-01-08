@@ -1,0 +1,26 @@
+
+
+###
+
+POST http://localhost:3001/api/jokes HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "question": "Why are modern programming languages so materialistic?",
+  "answer": "Because they are object-oriented.",
+  "category": "Programming"
+}
+###
+
+POST http://localhost:3001/api/jokes HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "question": "How much did your chimney cost?",
+  "answer": "Nothing, it was on the house.",
+  "category": "Pun"
+}
+
+

@@ -1,0 +1,22 @@
+POST http://localhost:3001/api/scores HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "username": "camille",
+  "date": "2021-01-02T10:17:35.457+00:00",
+  "score": 10,
+  "joke": "659c15cba4e0f6cac0a31f94"
+}
+
+###
+POST http://localhost:3001/api/scores HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "username": "laurent",
+  "date": "2023-01-02T15:49:27.457+00:00",
+  "score": 8,
+  "joke": "659932426dbe2f8ac65b56b0"
+}
